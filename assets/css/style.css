@@ -12,10 +12,10 @@ header{
 	border-bottom: 2px solid #cccccc;
 	width: 960px;
 }
-.about,
+#about,
 .line,
-.contact,
-.portfolio{
+#contact,
+#portfolio{
 	float: right;
 	padding: 20px;
 }
@@ -37,7 +37,6 @@ float: left;
 	Clear: both;
 	overflow: auto;
 }
-
 body{
 	clear: both;
 	overflow: auto;
@@ -47,8 +46,6 @@ body{
 	padding: 0px;
 	width: 960px;
 }
-.main,
-.contactform,
 .gamepage {
 	box-sizing: border-box;
 	background-image: url("../images/vertical-waves.png");
@@ -73,6 +70,10 @@ h4{
 h5{
 	color: #cccccc;
 	font-size: 24px;
+}
+.names{
+	padding: 10px, 20px;
+	color:#cccccc;
 }
 #bio,
 #games,
@@ -107,6 +108,31 @@ p{
 	background-color: #ffffff;
 
 }
+#linkedin,
+#github,
+#stack {
+padding:7px; 
+}
+#name,
+#email,
+#message {
+	clear: both;
+	overflow:auto;
+	padding: 0px;
+	margin: 4px;
+}
+#hangman,
+#rpg,
+#trivia,
+#rps,
+#widget {
+	border: 1px solid grey;
+	padding: 0px;
+	margin: 10px;
+	float: left;
+	position: relative;
+}
+
 .copy{
 	clear: both;
 	overflow: auto;

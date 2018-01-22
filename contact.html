@@ -12,33 +12,44 @@
 	<header>
 		<div class="heading">
 			<h1>April Wilson</h1></div>
-			<div class="links">
-					<div class="about"><h4>About</h4></div>
-					<div class= "line"><h5>&#10072</h5></div>
-					<div class="portfolio"><h4>Portfolio</h4></div>
-					<div class= "line"><h5>&#10072</h5></div>
-					<div class="contact"><h4>Contact</h4></div>
-			</div>
+			<div class="connect">
+				<a href="index.html"id="about"><h4>About</h4></a>
+				<div class="line"><h5>&#10072</h5></div>
+				<a href="portfolio.html"id="portfolio"><h4>Portfolio</h4></a>
+				<div class="line"><h5>&#10072</h5></div>
+				<a href="contact.html"id="contact"><h4>Contact</h4></a>
+	</div>
 	</header>
-	<div class="contactform">
+	<div class="gamepage">
 		<section id="boxform">
 			<h2>Contact</h2>
-			<form>
-				<div class="name">Name</div>
-					<input>	
-				<div class="email">Email</div>
-					<input>
-				<div class="message">Message</div>
-					<input>
-				<button="submit">Submit</button>
+			<form action="action_page.php">
+
+				<label for="name">Name</label><br>
+				<input type="text" id="name" name="name" placeholder=".."><br>
+
+				<label for="email">Email</label><br>
+				<input type="text" id="email" name="email" placeholder=".."><br>
+
+				<label for="message">Message</label><br> <textarea name="message" id="message" cols="40" rows="10"></textarea><br>
+
+				<input type="submit" value="submit">
 			</form>
 		</section>
 		<section id="connect">
-			<h3>Connect With Me</h3>
-			<img src="/images/linkedin.jpeg"alt="Linkedin Icon"> <a href="https://linkedin.com/aprilmwilson"target="_blank"></a>
-			<img src="/images/github.jpeg"alt="Github Icon"><a href="https://github.com/aprilmariewilson"target="_blank"></a>
-			<img src="/images/stack.jpeg"alt="Stackoverflow Icon"><a href="https://stackoverflow.com/aprilmwilson"target="_blank""></a>
-		</section>
+					<h3>Connect With Me</h3>
+		<a href="https://www.linkedin.com/in/april-wilson-14230b5a/"target="_blank">
+		<img src="assets/images/linkedin.jpeg" alt="linkedin" style="width:50px;height:50px;" id="linkedin"
+		srcset="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-128.png"></a>
+		
+		<a href="https://github.com/aprilmariewilson" target="_blank">
+		<img src="assets/images/github.jpeg" alt="github" style="width:50px;height:50px;" id="github" srcset="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/github-square-128.png"></a>
+
+		<a href="https://stackoverflow.com/users/story/9178361" target="_blank">
+		<img src="assets/images/stack.jpeg" alt="stack" style="width:50px;height:50px;" id="stack"
+		srcset="https://cdn4.iconfinder.com/data/icons/miu-square-flat-social/60/stackoverflow-square-social-media-128.png"></a>
+	</section>
+
 	</div>
 
 	<footer>
