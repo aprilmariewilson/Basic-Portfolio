@@ -132,7 +132,65 @@ padding:7px;
 	float: left;
 	position: relative;
 }
-
+.one{
+	position:absolute;
+	left:132px;
+	bottom: 110px;
+	width: 175px;
+	border: 1px solid #4aaaa5;
+	background-color: #4aaaa5;
+	font-size: 32px;
+	text-align: center;
+	color: #ffffff;
+}
+.two{
+	position:absolute;
+	left:329px;
+	bottom: 110px;
+	width: 175px;
+	border: 1px solid #4aaaa5;
+	background-color: #4aaaa5;
+	font-size: 32px;
+	text-align: center;
+	color: #ffffff;
+}
+.three{
+	position:absolute;
+	left:132px;
+	bottom: -90px;
+	width: 175px;
+	border: 1px solid #4aaaa5;
+	background-color: #4aaaa5;
+	font-size: 32px;
+	text-align: center;
+	color: #ffffff;
+}
+.four{
+	position:absolute;
+	left:329px;
+	bottom: -90px;
+	width: 175px;
+	border: 1px solid #4aaaa5;
+	background-color: #4aaaa5;
+	font-size: 24px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align: center;
+	color: #ffffff;
+}
+.five{
+	position:absolute;
+	left:132px;
+	bottom: -285px;
+	width: 175px;
+	border: 1px solid #4aaaa5;
+	background-color: #4aaaa5;
+	font-size: 19px;
+	padding-bottom: 10px;
+	padding-top: 10	px;
+	text-align: center;
+	color: #ffffff;
+}
 .copy{
 	clear: both;
 	overflow: auto;
